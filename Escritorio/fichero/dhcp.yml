@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  ubuntu:
+    image: ubuntu
+    ports:
+      - 6868:68
+      - 6767:67

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <h1>Docker</h1>
+            <p>Docker es un subsitema de virtualizacion que comparte con el anfitrion el
+                kernel y el sistema de archivos. El anfitrion siempre es un sistema Linux. Si
+                estamos en Windows o MAC, necesitare una maquina virtual Windows virtualizada
+                con Virtual Box o similar
+            </p>
+            <p>
+                Un software de maquinas virtuales necesitan instalar el sistema 
+                operativo completo. Ejemplos de sistemas de virtualizacion:
+            </p>
+            <ul>
+                <li>Virtualbox(para multiplesplataformas)</li>
+                <li>Hyper-v(para windows)</li>
+                <li>Parallels(para MAC)</li>
+                <li>VMWare (para multiplesplataformas)</li>
+                <li>QEMU(Para Linux)</li>
+                <li>XEN(Para Linux/UNIX)</li>
+                <li>KVM(Para Linux/UNIX)</li>
+            </ul>
+            <p>
+                Un softwarede contenedores es un sistema de virtualizacion que
+                comparte el kernel con el anfitrion. Se basa en el concepto de 
+                microservicios, donde tengo todos los programas instalados, configurados 
+                y funcionando, gracias a los contenedores. Ejemplos de software de contenedores:
+
+            </p>
+            <ul>
+                <li>LXD</li>
+                <li>Docker</li>
+                <li>Kuebernetes</li>
+            </ul>
+            <p>
+                <img src="img/diagram12.jpg" alt="dochervsmaquina">
+            </p>
+            <p>
+                Para saber mas sobre le tema:
+            </p>
+            <ul>
+                <li> <a href="http://www.docker.com" target="_blank"> Web oficial Docker</a></li>
+                <li> <a href="http://hub.docker.com" target="_blank">Lista hub(Listado de contenedores)</a></li>
+                <li> <a href="http://docs.docker.vom/get-stardted">Tutorial de Docker</></li>
+            </ul>
+        </div>
+        <div id="dockerfile">
+            <h2>Dockerfile</h2>
+            <p>
+                Un <span class="destacado">Dockerfile</span> es una receta para crear
+                una imagen para la aplicacion manual de Docker. De este modo podemos 
+                tomar una imagen base, instalarle programas, configurar esos programas y
+                dejarla preparada para crear contendores a partr de ella 
+            </p>
+
+        </div>
+
+    </body>
+</html>
